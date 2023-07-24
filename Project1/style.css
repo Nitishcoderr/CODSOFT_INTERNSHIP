@@ -1,0 +1,393 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+header {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 240, 63, 0.9810049019607843) 0%,
+    rgba(227, 33, 190, 1) 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family:Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.social-media{
+    display: flex;
+    align-items: center;
+}
+
+.line{
+    height: 4rem;
+    margin: 0 5px;
+    width: 1px;
+    background-color: white;
+}
+
+.social-media i {
+  margin: 0 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+
+
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-line{
+    height: 1.5rem;
+    margin: 0 15px;
+    width: 1px;
+    background-color: white;
+}
+
+.contact i {
+    color: white;
+    font-size: 1.1rem;
+}
+
+.contact a{
+    color: white;
+    margin: 0 10px;
+}
+
+.header-btn a{
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 0.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/* nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+} */
+
+/* .nav-logo{
+    display: flex;
+    align-items: center;
+} */
+
+.nav-logo img{
+    width: 90px;
+}
+
+
+.nav-main a{
+    color: black;
+    font-family:Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin: 0 5px;
+}
+
+.nav-main  a:last-child{
+    background-color: rgb(249, 167, 74);
+    color: black;
+    height: 30px;
+    padding: 0.9rem;
+}
+
+.navbar-search button{
+    outline: none !important;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 0.5rem 2rem;
+    background-color: white;
+    color: black;
+
+
+}
+
+
+
+/* Crausel-section */
+
+.crausel-section{
+    position: relative;
+    height: 413px;
+}
+
+.crausel-section img{
+    opacity: 0.7;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    
+}
+
+.crausel-content{
+    position: absolute;
+    top: 130px;
+    left: 150px;
+    line-height: 45px;
+    
+}
+
+.crausel-content h2{
+    text-transform: uppercase;
+    font-family:Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    text-shadow: 0px -10px 4px rgba(0, 0, 0, 1);
+    color: rgb(243, 8, 153);
+    font-size: 2rem;
+    
+}
+
+.crausel-content h1{
+    text-transform: uppercase;
+    font-family:Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    /* color: white; */
+    font-size: 2rem;
+    
+}
+
+.crausel-content p{
+    font-family:Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(0, 0, 0);
+    
+}
+
+.crausel-btn button:first-child{
+    border: 1px solid white;
+    outline: none;
+    color: white;
+    padding: 0.5rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 20px;
+    background: linear-gradient(
+    90deg,
+    rgba(255, 240, 63, 0.9810049019607843) 0%,
+    rgba(227, 33, 190, 1) 100%
+  );
+  font-family:Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+
+.crausel-btn button:last-child{
+    border: 1px solid white;
+    outline: none;
+    color: black;
+    padding: 0.5rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 20px;
+    font-family:Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    background-color: transparent;
+    box-shadow: rgba(248, 248, 248, 0.4) 5px 5px, rgba(255, 255, 255, 0.3) 10px 10px, rgba(255, 255, 255, 0.2) 15px 15px, rgba(255, 251, 254, 0.1) 20px 20px, rgba(255, 255, 255, 0.05) 25px 25px;
+}
+
+/* Section-3 */
+.section-3{
+    background: linear-gradient(
+        90deg,
+        rgba(255, 240, 63, 0.9810049019607843) 0%,
+        rgba(227, 33, 190, 1) 100%
+      );
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 3rem;
+}
+
+.section3-card{
+    padding: 1.5rem;
+    width: 350px;
+}
+
+.section-3 .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section-3 .header i{
+    color: white;
+    font-size: 1.5rem;
+    border: 1px solid white;
+    border-radius: 100px;
+    padding: 10px;
+}
+
+.section-3 .header p{
+    text-transform: uppercase;
+    word-spacing: 5px;
+    font-size: 1.2rem;
+    font-family:Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+
+}
+
+.section3-card .content {
+    margin-top: 10px;
+}
+.section3-card .content p{
+    word-spacing: 5px;
+    font-size: 1rem;
+    font-family:Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+/* about-section */
+
+.about-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem;
+    /* background-image: url('./asset/world-map.png');
+    content: "";
+    background-color: rgba(0, 0, 0, 0.5); */
+    
+}
+
+.about-left{
+    line-height: 30px;
+}
+
+.about-left h4{
+    font-size: 2.5rem;
+    font-family:Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+}
+
+.underline{
+    background: linear-gradient(
+    90deg,
+    rgba(255, 240, 63, 0.9810049019607843) 0%,
+    rgba(227, 33, 190, 1) 100%
+  );
+  width: 6rem;
+  height: 3px;
+  margin: 10px 0;
+}
+
+.about-left h2{
+    font-size: 1.8rem;
+    font-family:Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.about-left p{
+    font-family:Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.about-right img{
+    width: 100%;
+}
+
+.about-left button{
+    border: 1px solid white;
+    outline: none;
+    color: white;
+    padding: 0.6rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 20px;
+    background: linear-gradient(
+    90deg,
+    rgba(255, 240, 63, 0.9810049019607843) 0%,
+    rgba(227, 33, 190, 1) 100%
+  );
+  font-family:Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+
+.service-section{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 4rem;
+}
+
+.service-heading h4{
+    font-size: 2.5rem;
+    font-family:Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+}
+
+.card-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 5rem 0;
+}
+
+.service-card{
+    width: 350px;
+    margin: 1rem 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    position: relative;
+}
+
+.service-card img{
+    width: 100%;
+}
+
+.section-card-batch{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: -25px;
+    right: 0px;
+    background-color: white;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 30px 0 0 30px;
+}
+.section-card-batch i{
+    background: linear-gradient(
+    90deg,
+    rgba(255, 240, 63, 0.9810049019607843) 0%,
+    rgba(227, 33, 190, 1) 100%
+  );
+  font-size: 1rem;
+  padding: 0.5rem;
+  color: white;
+  margin: 0 10px;
+  border-radius: 100%;
+}
+
+.section-card-batch p{
+    font-size: 1rem;
+    font-weight: 700;
+    font-family:Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+
+.navbar-toggler-icon {
+    background-image: url('./asset/menu-outline.svg') !important;
+}
+
+.navbar-toggler {
+    border: none !important;
+}

@@ -1,0 +1,164 @@
+@media only screen and (max-width: 994px){
+
+    .nav-logo img {
+        display: none;
+    }
+    .navbar-search button{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 790px){
+    header {
+        justify-content: space-between;
+        padding: 0 0.5rem;
+    }
+
+    .contact{
+        display: none;
+    }
+}
+@media only screen and (max-width: 760px){
+
+    .nav-search i:first-child{
+        display: none;   
+    }
+
+   /* nav{
+    position: relative;
+    
+   } */
+
+    .nav-main a:last-child {
+        background-color: white;
+        color: black;
+        height: auto;
+        padding: 0rem;
+    }
+    .nav-search {
+        background-color: white;
+        color: black;
+        top: 0;
+    right: 0;
+    position: absolute;
+    }
+    .nav-logo img {
+        display: none;
+    }
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content:left;
+        padding: 0.5rem;
+    }
+    .nav-main{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media only screen and (max-width: 720px) {
+  .section3-card {
+    margin: 1rem 0;
+  }
+  .about-section {
+    flex-direction: column;
+  }
+
+  .about-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .about-right img {
+    width: 50%;
+  }
+  .about-left {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    line-height: 35px;
+  }
+  .service-card {
+    margin: 1.5rem 0;
+  }
+  .underline {
+    width: 350px;
+  }
+  .service-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .crausel-section{
+    position: relative;
+    height: 513px;
+}
+}
+
+
+@media only screen and (max-width: 620px){
+    .crausel-content h2 {
+        font-size: 1.5rem;
+    }
+    
+
+    .crausel-content {
+        line-height: 40px;
+        left: 0;
+        padding: 1rem;
+}
+
+.crausel-content h1 {
+    font-size: 1.8rem;
+}
+
+
+
+}
+
+@media only screen and (max-width: 550px){
+    .service-heading h4 {
+    font-size: 2rem;
+    }
+
+    .underline {
+        width: 256px;
+    }
+
+}
+
+@media only screen and (max-width: 550px){
+
+    .social-media i{
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 380px){
+    .crausel-section{
+        height: 650px;
+    }
+    .crausel-btn button{
+        margin: 0.5rem;
+    }
+    .crausel-content h1{
+        font-size: 1rem;
+    }
+    .header-btn a{
+        font-size: 10px;
+    }
+    .social-media i{
+        font-size: 1rem;
+    }
+    .line {
+        height: 3rem;
+        margin: 0 2px;
+    }
+
+}
